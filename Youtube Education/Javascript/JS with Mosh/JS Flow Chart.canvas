@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"dbe975cbd3a2606c","type":"text","text":"##### ==Demo==:\nEvery browser has a JavaScript engine in it that we can place JS code in it.\n1. Go to chrome\n2. Hit inspect\n3. select console (you can write any valid JavaScript there)","x":-580,"y":-220,"width":260,"height":300,"color":"#ffffff"},
+		{"id":"a76f7950ae48ccdd","type":"text","text":"# **JavaScript In Action**","x":-127,"y":-460,"width":347,"height":120,"color":"6"},
+		{"id":"d04e6270e41f996c","type":"text","text":"#Shortcuts to bring up JavaScript Engine in browser: ALT+CONTROL+I\nquick html set up: ! and TAB","x":-610,"y":120,"width":330,"height":105,"color":"2"},
+		{"id":"6ce10be6567b2ea3","type":"text","text":"To extract JS #Scripts script into its own file: index.js","x":146,"y":-230,"width":311,"height":50,"color":"2"},
+		{"id":"39f6c6b7ab403ff8","type":"text","text":"in the script code, you have to source the new JS script. for example:\n```\n<Script src=\"index.js\"></script>\n```","x":138,"y":-166,"width":319,"height":96},
+		{"id":"7ad6916b46ad0a16","type":"text","text":"To change a property of the object one way that is used is DOT Notation\n\t- Bracket Notation- uses square brackets and passes a string that declares target properties\n\t- Dot notation is more concise and shorter and is default choice. but during the times when you don't know the specifics of target property then bracket notation would be better.","x":111,"y":150,"width":449,"height":210},
+		{"id":"007781b61a140c7e","type":"text","text":"Camel Notation: **a way to separate the words in a phrase by making the first letter of each word capitalized and not using spaces**.\n","x":138,"y":-7,"width":305,"height":78,"color":"4"},
+		{"id":"0c8b484786ab748f","type":"text","text":"Type: console.log ('Hello World');\nalert ('yo')","x":-240,"y":-250,"width":321,"height":70,"color":"1"},
+		{"id":"c45ba97dc2c1b0e9","type":"text","text":"!html in VScode gives you basic #HTML  structure [[Intro to JavaScript]] #shortcuts","x":-240,"y":-152,"width":321,"height":82,"color":"2"},
+		{"id":"70edfd902dafccc4","type":"text","text":"##### Places to add JavaScript Elements:\n`<head> <body>`\n*best practice is to put the #script elements at the end of all the body elements. browsers process files top to bottom and wont render content of page if you add it to the top*\n\n`<script>console.log('hello world')</script>`","x":-240,"y":-38,"width":321,"height":218,"color":"#ffffff"},
+		{"id":"bbcb665b8d8ee76f","type":"text","text":"### Object-Oriented Programming in JavaScript:","x":640,"y":-430,"width":338,"height":69,"color":"#ffffff"},
+		{"id":"204ba5497ed55c6d","x":689,"y":-620,"width":240,"height":140,"color":"#2d2525","type":"text","text":"procedural programing: \ncame before OOP\n\n| f() | x   |\n| --- | --- |\n| f() | x   |\n"},
+		{"id":"44702c5d9064bf94","x":1100,"y":-480,"width":180,"height":210,"color":"#b47e7e","type":"text","text":"f()=Method\nx=Property\n\n| f()x |\n| ---- |\n| f()x |\n| #OOP |\n"},
+		{"id":"08ee1d3b6f0876f2","x":500,"y":-310,"width":317,"height":80,"color":"6","type":"text","text":"> The best functions are those with no parameters> "},
+		{"id":"96aee0e5beedc240","x":841,"y":-252,"width":275,"height":134,"color":"4","type":"text","text":"Inheritance: \nTakes HTML Elements and groups them all in one class.\n`element.render() ;`\n"},
+		{"id":"963ff22282e1ebf1","x":335,"y":-550,"width":265,"height":79,"color":"1","type":"text","text":"Object literal notation uses: {}; and uses key value pairs"}
+	],
+	"edges":[
+		{"id":"7c3eacc5ebe660f1","fromNode":"a76f7950ae48ccdd","fromSide":"bottom","toNode":"dbe975cbd3a2606c","toSide":"top","color":"6"},
+		{"id":"9fb851f87af91813","fromNode":"dbe975cbd3a2606c","fromSide":"right","toNode":"0c8b484786ab748f","toSide":"left"},
+		{"id":"9d03ae2daf679cfc","fromNode":"dbe975cbd3a2606c","fromSide":"right","toNode":"c45ba97dc2c1b0e9","toSide":"left"},
+		{"id":"e5a63502dee26016","fromNode":"dbe975cbd3a2606c","fromSide":"right","toNode":"70edfd902dafccc4","toSide":"left"},
+		{"id":"8c74bcee2d60bb3b","fromNode":"dbe975cbd3a2606c","fromSide":"bottom","toNode":"d04e6270e41f996c","toSide":"top"},
+		{"id":"9862e4e531901600","fromNode":"a76f7950ae48ccdd","fromSide":"bottom","toNode":"6ce10be6567b2ea3","toSide":"top"},
+		{"id":"435e7550c008612c","fromNode":"6ce10be6567b2ea3","fromSide":"bottom","toNode":"39f6c6b7ab403ff8","toSide":"top"},
+		{"id":"fc77a96c58e7f244","fromNode":"a76f7950ae48ccdd","fromSide":"right","toNode":"bbcb665b8d8ee76f","toSide":"left"},
+		{"id":"dacadb0cdabd930e","fromNode":"39f6c6b7ab403ff8","fromSide":"bottom","toNode":"007781b61a140c7e","toSide":"top"},
+		{"id":"a331abaa10660ee1","fromNode":"007781b61a140c7e","fromSide":"bottom","toNode":"7ad6916b46ad0a16","toSide":"top"},
+		{"id":"eaa9aaf56525358d","fromNode":"bbcb665b8d8ee76f","fromSide":"top","toNode":"204ba5497ed55c6d","toSide":"bottom"},
+		{"id":"fa39ce95175519fa","fromNode":"bbcb665b8d8ee76f","fromSide":"right","toNode":"44702c5d9064bf94","toSide":"left"},
+		{"id":"f5036e21f9ff4ae4","fromNode":"bbcb665b8d8ee76f","fromSide":"bottom","toNode":"08ee1d3b6f0876f2","toSide":"top"},
+		{"id":"f6369f11b812b461","fromNode":"bbcb665b8d8ee76f","fromSide":"bottom","toNode":"96aee0e5beedc240","toSide":"top"},
+		{"id":"7f3ebbac02692311","fromNode":"bbcb665b8d8ee76f","fromSide":"top","toNode":"963ff22282e1ebf1","toSide":"bottom"}
+	]
+}

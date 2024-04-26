@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"28e1164cefabe922","type":"text","text":"","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"2e76632089a1dc59","type":"file","file":"cop2500/Intro to JavaScript/Picture Examples/attachments/googlemaps.png","x":-830,"y":-197,"width":560,"height":509},
+		{"id":"605723779e8ef12c","type":"text","text":"Google Maps","x":-830,"y":-257,"width":250,"height":60,"color":"1"},
+		{"id":"179700fcc1299a44","type":"file","file":"cop2500/Intro to JavaScript/Picture Examples/attachments/GetImage.png","x":-830,"y":-740,"width":581,"height":451},
+		{"id":"78d1d44d26b671a5","type":"text","text":"Event Handler","x":-830,"y":-800,"width":250,"height":60,"color":"1"},
+		{"id":"e66154f2f9463cf8","type":"file","file":"cop2500/Intro to JavaScript/Picture Examples/attachments/webpage.png","x":-160,"y":-197,"width":736,"height":509},
+		{"id":"742bf97dcf9afbb2","type":"text","text":"#Webpage Page Life Cycle","x":-160,"y":-257,"width":250,"height":60,"color":"1"},
+		{"id":"e5a03c73d0afc838","type":"file","file":"cop2500/Intro to JavaScript/Picture Examples/attachments/Three Layers.png","x":-204,"y":-740,"width":794,"height":451},
+		{"id":"16eb0b90b497f881","type":"text","text":"Three Layers that make up a #Webpage ","x":-204,"y":-800,"width":250,"height":58,"color":"1"}
+	],
+	"edges":[]
+}
